@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="9a5414d281324c7d9d38a0a730104b21" Name="Diagram1">
+        <EntityTypeShape EntityType="ecommerceModel1.Cart" Width="1.5" PointX="5.25" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ecommerceModel1.Category" Width="1.5" PointX="0.75" PointY="8.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="ecommerceModel1.Customer" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ecommerceModel1.Feature" Width="1.5" PointX="5.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ecommerceModel1.MetaFeature" Width="1.5" PointX="3" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ecommerceModel1.Order" Width="1.5" PointX="5.25" PointY="11.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="ecommerceModel1.Product" Width="1.5" PointX="3" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="ecommerceModel1.ProductOrderStatu" Width="1.5" PointX="8.25" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ecommerceModel1.Review" Width="1.5" PointX="8.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="ecommerceModel1.Status" Width="1.5" PointX="6" PointY="14.75" IsExpanded="true" />
+        <AssociationConnector Association="ecommerceModel1.FK_Customer_Cart" ManuallyRouted="false" />
+        <AssociationConnector Association="ecommerceModel1.FK_Product_Cart" ManuallyRouted="false" />
+        <AssociationConnector Association="ecommerceModel1.FK_Category_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="ecommerceModel1.fk_Customer" ManuallyRouted="false" />
+        <AssociationConnector Association="ecommerceModel1.FK_Customer_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="ecommerceModel1.FK_Customer_Review" ManuallyRouted="false" />
+        <AssociationConnector Association="ecommerceModel1.FK_MetaFeature_Feature" ManuallyRouted="false" />
+        <AssociationConnector Association="ecommerceModel1.FK_ProductID_Feature" ManuallyRouted="false" />
+        <AssociationConnector Association="ecommerceModel1.FK_Product_Order" ManuallyRouted="false" />
+        <AssociationConnector Association="ecommerceModel1.fk_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="ecommerceModel1.FK_Product_Review" ManuallyRouted="false" />
+        <AssociationConnector Association="ecommerceModel1.fk_Status" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
