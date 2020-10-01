@@ -10,7 +10,7 @@
                 </h3> <br />
         </center>
         <p>
-            This here is the Content Management System for the eCommerce (Onlinw Shopping) web
+            This here is the Content Management System for the eCommerce (Online Shopping) web
             application. From this admin panel, you can change various aspects of the websites
             like managing users and products. Uploading new products and updating user information
             etc.
